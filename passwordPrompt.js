@@ -6,8 +6,7 @@ function checkPassword() {
 // Use a do-while loop to prompt for the password.
 do {
   // Prompt the user to enter their password.
-  userPassword = prompt("Enter your password:");
-
+  let userPassword = prompt("Enter your password:");
   // Check if the entered password is correct
   if (userPassword !== correctPassword) {
     alert("Incorrect password. Try again.");
@@ -15,3 +14,4 @@ do {
 } while (userPassword !== correctPassword);
 alert("Access granted!");
 }
+
